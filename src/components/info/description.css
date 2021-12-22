@@ -1,0 +1,12 @@
+.description {
+    justify-content: center;
+}
+
+.pokemon-number {
+    color: #616161;
+}
+
+.pokemon-stats {
+    background-color: #a4a4a4;
+    border-radius: 5px;
+}

@@ -1,0 +1,39 @@
+.info-header {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.previous-page, .next-page {
+    flex-basis: 49;
+    gap: 10px;
+    background-color: grey;
+    width: 49%;
+}
+
+/* .previous {
+    width: 49%;
+}
+
+.next {
+    width: 49%;
+} */
+
+.pokedex-pokemon-pagination a span.pokemon-number {
+    font-family: "Flexo-Bold",arial,sans-serif;
+    color: #616161;
+    float: left;
+    font-size: 150%;
+    line-height: 162.5%;
+    text-transform: none;
+}
+
+.pokedex-pokemon-pagination a span.pokemon-name {
+    color: #616161;
+    margin: 0 0.5em;
+    font-family: "Flexo-Bold",arial,sans-serif;
+    float: left;
+    font-size: 150%;
+    line-height: 162.5%;
+}

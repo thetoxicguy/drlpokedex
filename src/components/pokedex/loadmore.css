@@ -1,0 +1,14 @@
+#loadmore {
+	width: 100%;
+}
+
+#button-loadmore {
+	background-color:#30a7d7;
+    margin-top: 2.5em;
+    border: none;
+	border-radius:5px;
+	color:#ffffff;
+	font-size:20px;
+	padding:13px 32px;
+    width:430px;
+}
