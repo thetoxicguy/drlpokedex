@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const Pokedex = require("pokeapi-js-wrapper")
+const P = new Pokedex.Pokedex()
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

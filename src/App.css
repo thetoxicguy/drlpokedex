@@ -16,6 +16,10 @@ body {
   vertical-align: baseline
 }
 
+section {
+  display: block;
+}
+
 div {
   display: block;
 }

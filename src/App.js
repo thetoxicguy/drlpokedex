@@ -2,8 +2,8 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
-  useParams
+  // Link,
+  // useParams
 } from "react-router-dom";
 import './App.css';
 import Pokedex from "./components/pokedex";

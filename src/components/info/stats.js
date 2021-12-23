@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Bar } from "react-chartjs-2";
+import { Chart as ChartJS } from 'chart.js/auto';
+import { Chart } from 'react-chartjs-2';
 
 function Stats() {
   // set data
@@ -25,6 +27,7 @@ function Stats() {
   const [barOptions, setBarOptions] = useState({
     options: {
       scales: {
+        /*
         yAxes: [
           {
             ticks: {
@@ -32,6 +35,7 @@ function Stats() {
             },
           },
         ],
+        */
       },
       title: {
         display: true,
